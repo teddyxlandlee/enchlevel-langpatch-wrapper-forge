@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "xland/mcmod/enchlevellangpatch/mixin/MixinTranslationStorage": {
+      "getOrDefault(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/client/resources/ClientLanguageMap;func_230503_a_(Ljava/lang/String;)Ljava/lang/String;"
+    }
+  },
+  "data": {
+    "searge": {
+      "xland/mcmod/enchlevellangpatch/mixin/MixinTranslationStorage": {
+        "getOrDefault(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/client/resources/ClientLanguageMap;func_230503_a_(Ljava/lang/String;)Ljava/lang/String;"
+      }
+    }
+  }
+}
