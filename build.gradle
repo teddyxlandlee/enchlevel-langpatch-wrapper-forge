@@ -22,7 +22,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'org.spongepowered.mixin'
 
 group = 'xland.mcfgmod.enchlevel-langpatch'
-version = '1.0.0-alpha.1'
+version = '1.0.1'
 
 java {
     archivesBaseName = 'enchlevel-langpatch-wrapper-forge'
