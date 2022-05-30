@@ -22,7 +22,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'org.spongepowered.mixin'
 
 group = 'xland.mcfgmod.enchlevel-langpatch'
-version = '1.0.1'
+version = '1.0.1-beta.1.16.5'
 
 java {
     archivesBaseName = 'enchlevel-langpatch-wrapper-forge'
@@ -181,6 +181,9 @@ jar {
                 "Implementation-Vendor"   : "teddyxlandlee",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
+    }
+    from('LICENSE') {
+        rename 'LICENSE', 'LICENSE_enchlevel-langpatch-wrapper-forge'
     }
 }
 
