@@ -1,7 +1,7 @@
 package xland.mcmod.enchlevellangpatch.api;
 
 import com.google.common.collect.BiMap;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 import org.apiguardian.api.API;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

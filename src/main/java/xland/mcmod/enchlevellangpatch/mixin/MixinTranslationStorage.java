@@ -1,6 +1,6 @@
 package xland.mcmod.enchlevellangpatch.mixin;
 
-import net.minecraft.client.resources.language.ClientLanguage;
+import net.minecraft.client.resources.ClientLanguageMap;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -12,7 +12,7 @@ import xland.mcmod.enchlevellangpatch.impl.AsmHook;
 
 import java.util.Map;
 
-@Mixin(ClientLanguage.class)
+@Mixin(ClientLanguageMap.class)
 public class MixinTranslationStorage {
     @Shadow @Final private Map<String, String> storage;
 

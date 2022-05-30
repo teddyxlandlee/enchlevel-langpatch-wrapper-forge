@@ -1,7 +1,7 @@
 package xland.mcmod.enchlevellangpatch.impl;
 
 import com.google.common.collect.Lists;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.jetbrains.annotations.NotNull;
 import xland.mcmod.enchlevellangpatch.api.EnchantmentLevelLangPatch;
